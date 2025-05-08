@@ -1,0 +1,25 @@
+.contact-me {
+  padding: 0 0 60px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.icon {
+  width: 64px;
+  height: 64px;
+  margin-right: 16px;
+}
+
+.contact-me-text {
+  display: flex;
+  flex-direction: column;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: 0;
+  font-style: italic;
+  color: white;
+  margin-bottom: 16px;
+  gap: 4px;
+}
