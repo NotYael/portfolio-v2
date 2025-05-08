@@ -1,0 +1,37 @@
+.greeting-container {
+  display: flex;
+  flex-direction: column;
+  width: 519px;
+  height: 242px;
+  gap: 2px;
+}
+
+.name-container {
+  width: 519px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.name {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0;
+  color: #fff;
+}
+
+.job-container {
+  width: 250px;
+}
+
+.job {
+  font-family: "IBM Plex Mono", monospace;
+  font-style: italic;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0;
+  color: #fff;
+}
