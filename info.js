@@ -6,9 +6,63 @@ const about = {
 
 const projects = [
   {
-    name: "Project 1",
-    description: "Description 1",
-    link: "https://www.google.com",
+    id: 1,
+    title: "Project 1",
+    short_description:
+      "This model was designed to streamline the process of book genre classification. It was trained on a labeled dataset of 4,656 books across 10 genres.",
+    long_description: "Description 2",
+    image_link: "/me.JPG",
+    other_images: [
+      "https://www.google.com",
+      "https://www.google.com",
+      "https://www.google.com",
+    ],
+    repository_link: "https://www.google.com",
+    logos: {
+      react: "/linkedin.svg",
+      node: "/linkedin.svg",
+      python: "/linkedin.svg",
+    },
+  },
+  {
+    id: 2,
+    title: "Project 2",
+    short_description:
+      "This model was designed to streamline the process of book genre classification. It was trained on a labeled dataset of 4,656 books across 10 genres.",
+    long_description: "Description 2",
+    image_link: "/me.JPG",
+    other_images: [
+      "https://www.google.com",
+      "https://www.google.com",
+      "https://www.google.com",
+    ],
+    repository_link: "https://www.google.com",
+    logos: {
+      react: "/linkedin.svg",
+      node: "/linkedin.svg",
+      python: "/linkedin.svg",
+      rah: "/linkedin.svg",
+    },
+  },
+  {
+    id: 3,
+    title: "Project 2",
+    short_description:
+      "This model was designed to streamline the process of book genre classification. It was trained on a labeled dataset of 4,656 books across 10 genres.",
+    long_description: "Description 2",
+    image_link: "/me.JPG",
+    other_images: [
+      "https://www.google.com",
+      "https://www.google.com",
+      "https://www.google.com",
+    ],
+    repository_link: "https://www.google.com",
+    logos: {
+      react: "/linkedin.svg",
+      node: "/linkedin.svg",
+      python: "/linkedin.svg",
+      rah: "/linkedin.svg",
+    },
   },
 ];
 

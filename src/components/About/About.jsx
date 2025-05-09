@@ -9,6 +9,10 @@ export default function About() {
         <span className="about-text-title">{about.title}</span>
         <span className="about-text-description">{about.description}</span>
       </div>
+      <div className="scroll-down">
+        <span>⮟</span>
+      </div>
+      <div className="about-line"></div>
     </div>
   );
 }

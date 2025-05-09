@@ -4,6 +4,7 @@ import Header from "./components/Header/Header";
 import Greeting from "./components/Greeting/Greeting";
 import ContactMe from "./components/ContactMe/ContactMe";
 import About from "./components/About/About";
+import Projects from "./components/Projects/Projects";
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(true);
@@ -21,9 +22,8 @@ function App() {
           <ContactMe />
         </div>
         <div className="content-right">
-          <div className="scroll-container">
-            <About />
-          </div>
+          <About />
+          <Projects />
         </div>
       </div>
     </div>

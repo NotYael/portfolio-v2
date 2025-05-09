@@ -1,0 +1,93 @@
+.project-card {
+  display: flex;
+  align-items: stretch;
+  align-self: stretch;
+  border-radius: 36px;
+  border: 1px solid #fff;
+  overflow: hidden;
+}
+
+.project-card-image {
+  width: 183px;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 36px;
+  border-bottom-left-radius: 36px;
+}
+
+.project-card-content {
+  display: flex;
+  padding: 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  flex: 1 0 0;
+}
+
+.project-card-title {
+  color: #fff;
+  font-family: "IBM Plex Mono";
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.project-card-short-description {
+  color: #fff;
+  font-family: "IBM Plex Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.project-card-logos {
+  display: flex;
+  align-items: center;
+  align-self: stretch;
+  justify-content: space-between;
+}
+
+.logo-circles {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.logo-circle {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: 4px;
+  box-sizing: border-box;
+}
+
+.logo-circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.repository-link {
+  display: flex;
+  height: 32px;
+  padding: 0 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  color: #fff;
+  font-family: "IBM Plex Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
