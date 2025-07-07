@@ -78,6 +78,7 @@
 .repository-link {
   display: flex;
   height: 32px;
+  width: 120px;
   padding: 0 16px;
   justify-content: center;
   align-items: center;
@@ -90,4 +91,52 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.repository-link:hover {
+  background-color: var(--text-primary);
+  color: var(--background-color, #242424);
+}
+
+.repository-link.private {
+  cursor: default;
+  opacity: 0.7;
+}
+
+.repository-link.private:hover {
+  background-color: transparent;
+  color: var(--text-primary);
+}
+
+.repository-links-split {
+  display: flex;
+  gap: 12px;
+  height: 32px;
+  width: 154px;
+}
+
+.repository-link-split {
+  display: flex;
+  height: 32px;
+  width: 54px;
+  padding: 0 8px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  border: 1px solid var(--text-primary);
+  color: var(--text-primary);
+  font-family: "IBM Plex Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.repository-link-split:hover {
+  background-color: var(--text-primary);
+  color: var(--background-color, #242424);
 }

@@ -7,9 +7,9 @@ const about = {
 const projects = [
   {
     id: 1,
-    title: "Project 1",
+    title: "EcoLoop Website",
     short_description:
-      "This model was designed to streamline the process of book genre classification. It was trained on a labeled dataset of 4,656 books across 10 genres.",
+      "For this project, I built the frontend using ReactJS and the backend using Express.js and Node.js, which connected to a PostgreSQL database. Additionally, I incorporated the OpenAI API to implement a bottle recognition feature for our Arduino.",
     long_description: "Description 2",
     image_link: "/me.JPG",
     other_images: [
@@ -17,7 +17,13 @@ const projects = [
       "https://www.google.com",
       "https://www.google.com",
     ],
-    repository_link: "https://www.google.com",
+    repository_link: {
+      status: "public",
+      links: [
+        "https://github.com/NotYael/iot-frontend.git",
+        "https://github.com/NotYael/iot-backend.git",
+      ],
+    },
     logos: {
       react: "/linkedin.svg",
       node: "/linkedin.svg",
@@ -26,17 +32,18 @@ const projects = [
   },
   {
     id: 2,
-    title: "Project 2",
+    title: "ICT Database System",
     short_description:
-      "This model was designed to streamline the process of book genre classification. It was trained on a labeled dataset of 4,656 books across 10 genres.",
-    long_description: "Description 2",
+      "My group and I developed a centralized database system to track ICT resources across the university. This included implementing Google Mail login for authentication and designing distinct user and administrator interfaces. I also resolved database data retrieval issues.",
     image_link: "/me.JPG",
     other_images: [
       "https://www.google.com",
       "https://www.google.com",
       "https://www.google.com",
     ],
-    repository_link: "https://www.google.com",
+    repository_link: {
+      status: "Private",
+    },
     logos: {
       react: "/linkedin.svg",
       node: "/linkedin.svg",
@@ -46,9 +53,9 @@ const projects = [
   },
   {
     id: 3,
-    title: "Project 2",
+    title: "Book Classification Machine Learning Model",
     short_description:
-      "This model was designed to streamline the process of book genre classification. It was trained on a labeled dataset of 4,656 books across 10 genres.",
+      "My partner and I developed a machine learning model to classify book summaries using a labeled dataset of 4,656 summaries across 10 genres. The model utilized both Multinomial Naive Bayes and Random Forest classifiers built with Scikit-learn.",
     long_description: "Description 2",
     image_link: "/me.JPG",
     other_images: [
@@ -56,7 +63,10 @@ const projects = [
       "https://www.google.com",
       "https://www.google.com",
     ],
-    repository_link: "https://www.google.com",
+    repository_link: {
+      status: "public",
+      links: ["https://github.com/NotYael/book-classifier-ml.git"],
+    },
     logos: {
       react: "/linkedin.svg",
       node: "/linkedin.svg",
