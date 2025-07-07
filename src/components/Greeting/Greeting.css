@@ -20,7 +20,7 @@
   font-weight: 700;
   line-height: 1.1;
   letter-spacing: 0;
-  color: #fff;
+  color: var(--text-primary);
 }
 
 .job-container {
@@ -34,5 +34,5 @@
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0;
-  color: #fff;
+  color: var(--text-primary);
 }

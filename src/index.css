@@ -7,10 +7,28 @@
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
 
+  /* Global text color variables - Dark theme (default) */
+  --text-primary: rgba(255, 255, 255, 0.87);
+  --text-secondary: rgba(255, 255, 255, 0.6);
+  --text-accent: #646cff;
+  --background-color: #242424;
+
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/* Light theme class */
+.light-theme {
+  color: #213547;
+  background: linear-gradient(180deg, #65fcf0 6.63%, #fff 100%);
+
+  /* Light mode text color variables */
+  --text-primary: #213547;
+  --text-secondary: #4a5568;
+  --text-accent: #646cff;
+  --background-color: #ffffff;
 }
 
 a {
@@ -52,17 +70,4 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
 }

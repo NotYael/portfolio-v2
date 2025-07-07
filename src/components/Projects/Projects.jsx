@@ -1,5 +1,5 @@
 import "./Projects.css";
-import ProjectCard from "../ProjectCard/ProjectCard";
+import ProjectCard from "./ProjectCard/ProjectCard";
 import { projects } from "../../../info";
 
 export default function Projects() {

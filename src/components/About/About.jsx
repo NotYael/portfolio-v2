@@ -12,7 +12,6 @@ export default function About() {
       <div className="scroll-down">
         <span>⮟</span>
       </div>
-      <div className="about-line"></div>
     </div>
   );
 }

@@ -19,7 +19,7 @@
   line-height: 100%;
   letter-spacing: 0;
   font-style: italic;
-  color: white;
+  color: var(--text-primary);
   margin-bottom: 16px;
   gap: 4px;
 }

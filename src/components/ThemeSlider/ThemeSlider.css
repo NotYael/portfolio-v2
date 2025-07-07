@@ -12,7 +12,7 @@
   line-height: 100%;
   letter-spacing: 0;
   font-style: italic;
-  color: white;
+  color: var(--text-primary);
 }
 
 .theme-toggle {
@@ -22,7 +22,7 @@
   cursor: pointer;
   padding: 2px;
   border-radius: 50px;
-  border: 1px solid white;
+  border: 1px solid var(--text-primary);
   display: inline-block;
 }
 
@@ -52,7 +52,7 @@
   width: 18px;
   left: 3px;
   bottom: 3px;
-  background-color: white;
+  background-color: var(--text-primary);
   transition: 0.4s;
   border-radius: 50%;
 }

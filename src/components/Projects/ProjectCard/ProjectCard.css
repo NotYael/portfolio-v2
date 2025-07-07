@@ -3,7 +3,7 @@
   align-items: stretch;
   align-self: stretch;
   border-radius: 36px;
-  border: 1px solid #fff;
+  border: 1px solid var(--text-primary);
   overflow: hidden;
 }
 
@@ -25,7 +25,7 @@
 }
 
 .project-card-title {
-  color: #fff;
+  color: var(--text-primary);
   font-family: "IBM Plex Mono";
   font-size: 24px;
   font-style: italic;
@@ -34,7 +34,7 @@
 }
 
 .project-card-short-description {
-  color: #fff;
+  color: var(--text-primary);
   font-family: "IBM Plex Mono";
   font-size: 16px;
   font-style: normal;
@@ -59,8 +59,8 @@
   width: 24px;
   height: 24px;
   border-radius: 50%;
-  border: 1px solid #fff;
-  background: #fff;
+  border: 1px solid var(--text-primary);
+  background: var(--text-primary);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -83,8 +83,8 @@
   align-items: center;
   gap: 10px;
   border-radius: 20px;
-  border: 1px solid #fff;
-  color: #fff;
+  border: 1px solid var(--text-primary);
+  color: var(--text-primary);
   font-family: "IBM Plex Mono";
   font-size: 16px;
   font-style: normal;

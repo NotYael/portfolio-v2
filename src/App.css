@@ -8,6 +8,12 @@
   padding: 60px;
   box-sizing: border-box;
   overflow: hidden;
+  color: var(--text-primary);
+}
+
+/* Light theme background override */
+.light-theme .app {
+  background-image: linear-gradient(180deg, #65fcf0 6.63%, #fff 100%);
 }
 
 .content {
@@ -46,8 +52,9 @@
 }
 
 .line {
-  height: 2px;
-  background-color: white;
-  margin: 40px 0;
+  height: 1px;
+  background-color: var(--text-primary);
   width: 100%;
+  margin: 40px 0;
+  flex-shrink: 0;
 }
